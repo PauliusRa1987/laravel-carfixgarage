@@ -1,0 +1,79 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+ul{
+    padding: 0;
+    
+}
+.header-bin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-bin{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.div-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .li{
+        display: grid;
+    grid-template-columns:  1.5fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr auto;
+    column-gap: 10px;
+    row-gap: 15px;
+
+    align-items: center;
+    }
+    
+}
+.div-btn-box{
+    display: flex;
+flex-direction: row;
+}
+.div-btn-box1{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.edit-img{
+        width: 100px;
+        height: 100px;
+    }
+.class{
+    text-align: center;
+    
+}
+.front{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sort{
+    text-decoration: none;
+}
+.margin{
+    margin-right: 30px;
+}
